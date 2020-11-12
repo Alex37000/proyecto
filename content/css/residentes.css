@@ -1,0 +1,488 @@
+body{
+	background:url("../imagenes/residentes.png");
+background-position: center center;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+background-color: #66999;
+}
+div.box{ 
+	float: none;
+  background-color: lightgray;
+  width: 500px;
+  border: 15px solid #3E760B;
+  border-radius:20px;
+  padding: 50px;
+  margin: 20px;
+  margin-left:5%;
+  margin-top: 4%;
+  }
+
+  input[type=number] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid lightgreen	;
+  border-radius: 4px;
+}
+ input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid lightblue	;
+  border-radius: 4px;
+}
+ input[type=date] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid lightblue	;
+  border-radius: 4px;
+}
+
+input[type=file]#nuestroinput {
+ width: 0.1px;
+ height: 0.1px;
+ opacity: 0;
+ overflow: hidden;
+ position: absolute;
+ z-index: -1;
+ }
+ label[for= nuestroinput] {
+ font-size: 14px;
+ font-weight: 600;
+ color: #fff;
+ background-color: #106BA0;
+ display: inline-block;
+ transition: all .5s;
+ cursor: pointer;
+ padding: 15px 40px !important;
+ text-transform: uppercase;
+ width: fit-content;
+ text-align: center;
+ }
+label.p{
+	padding: 8px;
+	color: white;
+	background-color: green;
+	border-radius: 6px;
+}
+input[type=submit] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border: 2px solid lightblue;
+  border-radius: 4px;
+  color: white;	
+  background-color: blue;
+}
+
+div.texto{
+	float: left;
+	font-family: Arial, Helvetica, sans-serif;
+  font-size:150%;
+  text-transform: capitalize;
+     color: #104E1A;
+	margin-right:20px;
+}
+.caja{
+font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+color: ghostwhite; 
+font-size: 80%; 
+font-weight: 400%; 
+text-align: center; 
+background:  #6A27C6 ; 
+margin-left: 10%;
+margin-right:10%;
+margin-bottom: 100%; 
+overflow: hidden; 
+padding:3%; 
+border-radius: 35% 0% 35% 0%; 
+-moz-border-radius: 35% 0% 35% 0%; 
+-webkit-border-radius: 5% 0% 5% 0%; 
+border: 2px solid #5878ca;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400, 300, 600, 700);
+/*----------- BOTONES ----------- */
+ .btn {
+    padding: 1em 2.1em 1.1em;
+    border-radius: 3px;
+    margin: 8px 8px 8px 8px;
+    color: #E5232C;
+    background-color: #E5232C;
+    display: inline-block;
+    background: #E5232C;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+    font-family: sans-serif;
+    font-weight: 800;
+    font-size: .85em;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
+    -webkit-box-shadow: 0em -0.3rem 0em rgba(0, 0, 0, 0.1) inset;
+    -moz-box-shadow: 0em -0.3rem 0em rgba(0, 0, 0, 0.1) inset;
+    box-shadow: 0em -0.3rem 0em rgba(0, 0, 0, 0.1) inset;
+    position: relative;
+}
+.btn:hover, .btn:focus {
+    opacity: 0.8;
+}
+.btn:active {
+    -webkit-transform: scale(0.80);
+    -moz-transform: scale(0.80);
+    -ms-transform: scale(0.80);
+    -o-transform: scale(0.80);
+    transform: scale(0.80);
+}
+.btn.block {
+    display: block !important;
+}
+.btn.circular {
+  border-radius: 50em !important;
+}
+
+
+/* Colours */
+.red {
+    background-color: #5BB4C7;
+}
+.teal {
+    background-color: #5BB4C7;
+}
+.sky {
+    background-color: #5BB4C7;
+}
+.black {
+    background-color: #5BB4C7;
+}
+.gray {
+    color: black;
+    background-color: #5BB4C7;
+}
+.orange {
+    background-color: #5BB4C7;
+}
+.pink {
+    background-color: #5BB4C7;
+}
+.green {
+    background-color: #5BB4C7;
+}
+.blue {
+    background-color: #5BB4C7;
+}
+.yellow {
+    background-color: #5BB4C7;
+}
+.purple {
+    background-color: #5BB4C7;
+}
+
+/*----------- estilos para telefonos mobiles vertical ----------- */
+@media (min-width:320px)  { /* smartphones, iPhone, portrait 480x320 phones */
+.caja{
+font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+color: #ffffff; 
+font-size:90%; 
+font-weight: 400%; 
+text-align: center; 
+background:  #6A27C6 ; 
+margin-left: 10%;
+margin-right:10%;
+margin-bottom: 100%; 
+overflow: hidden; 
+padding:3%; 
+border-radius: 35% 0% 35% 0%; 
+-moz-border-radius: 35% 0% 35% 0%; 
+-webkit-border-radius: 5% 0% 5% 0%; 
+border: 2px solid #5878ca;
+}
+}
+/*----------- estilos para telefonos mobiles horizontal----------- */
+/*----------- CAJAS ----------- */
+@media (min-width:481px)  { /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */
+
+	.caja{
+font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+color: #ffffff; 
+font-size: 100%; 
+font-weight: 400%; 
+text-align: center; 
+background:  #6A27C6 ; 
+margin-left: 10%;
+margin-right:10%;
+margin-bottom: 100%; 
+overflow: hidden; 
+padding:3%; 
+border-radius: 35% 0% 35% 0%; 
+-moz-border-radius: 35% 0% 35% 0%; 
+-webkit-border-radius: 5% 0% 5% 0%; 
+border: 2px solid #5878ca;
+}
+
+}
+
+@media (min-width:641px){ /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones * mas que todo aqui fue lo de la tablet en vertical / 
+	/*----------- CAJAS ----------- */
+.caja{
+font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+color: #ffffff; 
+font-size: 80%; 
+font-weight: 400%; 
+text-align: center; 
+background: #6A27C6 ; 
+margin-left: 10%;
+margin-right:10%;
+margin-bottom: 100%; 
+overflow: hidden; 
+padding:3%; 
+border-radius: 35% 0% 35% 0%; 
+-moz-border-radius: 35% 0% 35% 0%; 
+-webkit-border-radius: 5% 0% 5% 0%; 
+border: 2px solid #5878ca;
+}
+
+}
+@media (min-width:768px){
+	.caja{
+font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+color: #ffffff; 
+font-size: 120%; 
+font-weight: 400%; 
+text-align: center; 
+background:  #6A27C6 ; 
+margin-left: 10%;
+margin-right:10%;
+margin-bottom: 100%; 
+overflow: hidden; 
+padding:3%; 
+border-radius: 35% 0% 35% 0%; 
+-moz-border-radius: 35% 0% 35% 0%; 
+-webkit-border-radius: 5% 0% 5% 0%; 
+border: 2px solid #5878ca;
+}
+
+}
+@media (min-width:961px)  { /* tablet, landscape iPad, lo-res laptops ands desktops */ 
+.caja{
+font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+color: #ffffff; 
+font-size: 140%; 
+font-weight: 400%; 
+text-align: center; 
+background:  #6A27C6 ; 
+margin-left: 10%;
+margin-right:10%;
+margin-bottom: 100%; 
+overflow: hidden; 
+padding:3%; 
+border-radius: 35% 0% 35% 0%; 
+-moz-border-radius: 35% 0% 35% 0%; 
+-webkit-border-radius: 5% 0% 5% 0%; 
+border: 2px solid #5878ca;
+}
+
+}
+
+
+@media (min-width:1281px) { /* hi-res laptops and desktops */ 
+	.caja { 
+font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+color: #ffffff; 
+font-size:200%; 
+font-weight: 400; 
+text-align: center; 
+background:  #6A27C6 ; 
+margin-left: 10%;
+margin-right:10%;
+margin-bottom: 100%; 
+overflow: hidden; 
+padding:3%; 
+border-radius: 35% 0% 35% 0%; 
+-moz-border-radius: 35% 0% 35% 0%; 
+-webkit-border-radius: 5% 0% 5% 0%; 
+border: 2px solid #5878ca;
+}
+
+}
+@media (min-width:1600px) { /* big landscape tablets, laptops, and desktops */ 
+/*----------- CAJA ----------- */
+	.caja { 
+font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+color: #ffffff; 
+font-size:130%; 
+font-weight: 400; 
+text-align: center; 
+background:  #6A27C6 ; 
+margin-left: 10%;
+margin-right:10%;
+margin-bottom: 100%; 
+overflow: hidden; 
+padding:3%; 
+border-radius: 35% 0% 35% 0%; 
+-moz-border-radius: 35% 0% 35% 0%; 
+-webkit-border-radius: 5% 0% 5% 0%; 
+border: 2px solid #5878ca;
+}
+.caja1{
+	margin-left: 20%;
+	margin-bottom: 20%;
+	width:300px;
+	height:270px;
+	background:rgba(233, 233, 233, .7);
+	box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.9);
+	border-radius: 5px;
+}
+.caja2{
+	float: right;
+	margin-right: 20%;	
+	margin-bottom: 20%;
+	width:300px;
+	height:270px;
+	background:rgba(233, 233, 233, .7);
+	box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.9);
+	border-radius: 5px;
+}
+.caja3{
+	margin-right: 20%;
+	margin-left: 10%;
+	margin-bottom: 10%;
+	margin-right: 20%;	
+	width:20%;
+	height:170px;
+	background:rgba(233, 233, 233, .7);
+	box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.9);
+	border-radius: 5px;
+}
+.caja4{
+	float: right;
+	margin-right: 20%;
+	margin-left: 10%;
+	margin-bottom: 10%;
+	margin-right: 20%;	
+	width:20%;
+	height:170px;
+	background:rgba(233, 233, 233, .7);
+	box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.9);
+	border-radius: 5px;
+}
+/*----------- textos----------- */
+.title1{
+	padding: 20px;
+	text-align: center;
+	font-family: arial black;
+	font-size: 40px;
+	color: #fff;
+    text-shadow: 3px 3px 2px #000;
+}
+
+.frase1{
+	padding: 15px;
+	font-family: calibri;
+	font-size: 26px;
+	text-align: center;
+	color: #1EEBEB;
+    text-shadow: 2px 2px #000;
+}
+.titulo2 {
+color: #005900;
+text-shadow: #FFFCA8 2px 2px 0px, #9C9C9C 4px 4px 0px;
+color: #005900;
+font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+font-size: 200%;
+}
+.titulo3 {
+color: #005900;
+text-shadow: #FFFCA8 2px 2px 0px, #9C9C9C 4px 4px 0px;
+color: #005900;
+font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+font-size: 400%;
+}
+
+.texto{
+	font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+	color: #ffffff; 
+	font-size:150%;
+
+}
+
+.articulo3{
+	display: flex;
+	justify-content: space-around;
+	flex-flow: row wrap;
+}
+
+/*----------- Inicio de sesion----------- */
+.container4{
+	background-size: 100%;
+	width: 100%;
+	height:auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 35px 5px;
+}
+.login{
+	margin:40px;
+	border-radius: 5px;
+	padding: 20%;
+	width: 105%;
+	height: 100%;
+	background: #017C7C;
+	box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.6);
+}
+
+.icono{
+	display: flex;
+	justify-content: center;
+}
+
+.iconodel{
+	font-size: 80px;
+}
+
+input{
+	width: 100%;
+}
+
+input[type="text"], input[type="password"]{
+	padding: 2px 5px;
+}
+
+label{
+	font-weight: bolder;
+	margin-bottom: 0px; 
+}
+
+.buttoni,.buttonr{
+	border:none;
+	width: 200px;
+}
+
+.botonesdei{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.boton1{
+	border:none;
+	width: 100%;
+	margin-top: 7px;
+	border-radius: 5px;
+}
+
+.Olvidastec{
+	margin-top: 5px;
+	font-size: 14px;
+}
+}
+}
